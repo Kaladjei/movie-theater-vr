@@ -1,32 +1,18 @@
-# miso-aframe
+# movie-theater-vr
 
-Miso bindings for [A-Frame framework](https://aframe.io/) for WebVR.
-
-![Haskell logo in VR mode](images/haskell-logo-voxels-vr.jpg)
-
-### Documentation
-
-See Haddock documentation at https://fizruk.github.io/miso-aframe/doc/index.html
-
-### Examples
-
-- "Hello, world!" with basic primitives ([sources](examples/hello-world))
-- Animated voxel-based Haskell logo ([sources](examples/haskell-logo-voxels))
-- Building a Basic Scene ([sources](examples/guide-basic-scene))
-
-### How to build
+A virtual reality movie theater built with miso-aframe
 
 ```
 stack setup
 stack build
 ```
 
-### How to run examples
+### How to run
 
-To run an example use `run-example.sh` script:
+To run use `run.sh` script:
 
 ```
-./repl.sh hello-world
+./run.sh movie-theater
 ```
 
 When GHCJSi has loaded open your browser and point to
